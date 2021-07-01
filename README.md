@@ -41,7 +41,7 @@ Lista de requisitos:
   - [9 - Crie a função search_by_category](#9---crie-a-função-search_by_category)
   - [10 - Crie a função top_5_news](#10---crie-a-função-top_5_news)
   - [11 - Crie a função top_5_categories](#11---crie-a-função-top_5_categories)
--[Requisitos bônus](#requisitos-bônus)
+- [Requisitos bônus](#requisitos-bônus)
   - [12 - Crie a função analyzer_menu](#12---crie-a-função-analyzer_menu)
   - [13 - Implemente as funcionalidades do menu](#13---implemente-as-funcionalidades-do-menu)
 
