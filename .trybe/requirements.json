@@ -58,12 +58,12 @@
     {
       "identifier": "test_analyzer_menu_basic",
       "description": "12 - Crie a função analyzer_menu",
-      "bonus": false
+      "bonus": true
     },
     {
       "identifier": "test_analyzer_menu_functions",
       "description": "13 - Implemente as funcionalidades do menu",
-      "bonus": false
+      "bonus": true
     }
   ]
 }
