@@ -1,6 +1,21 @@
+# reference: https://docs.python.org/3/library/time.html
+import time
+
+# reference: https://docs.python-requests.org/en/master/
+import requests
+
+
 # Requisito 1
 def fetch(url):
-    """Seu código deve vir aquiiiii"""
+    try:
+        r = requests.get(url, timeout=3)
+        time.sleep(1)
+        if r.status_code == 200:
+            return r.text
+        else:
+            return None
+    except requests.ReadTimeout:
+        return None
 
 
 # Requisito 2
