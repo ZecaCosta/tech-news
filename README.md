@@ -286,7 +286,7 @@ Lembre-se de que o mongoDB utilizará por padrão a porta 27017. Se já houver o
 local: `tech_news/scraper.py`
 
 Antes de fazer scrape, precisamos de uma página! Esta função será responsável por fazer a requisição HTTP ao site Tecmundo e obter o conteúdo HTML.
-Alguns cuidados deverão ser tomados: como a nossa função poderá ser utilizada váras vezes em sucessão, na nossa implementação devemos nos assegurar que um [Rate Limit](https://app.betrybe.com/course/computer-science/introducao-a-python-e-raspagem-de-dados-da-web/raspagem-de-dados/ab38ab4e-bdbd-4984-8987-1abf32d85f26/o-que-vamos-aprender/4cbf8710-f6cb-4bf9-bcc6-483eea65c05c?use_case=calendar) será respeitado.
+Alguns cuidados deverão ser tomados: como a nossa função poderá ser utilizada váras vezes em sucessão, na nossa implementação devemos nos assegurar que um [Rate Limit](https://app.betrybe.com/course/computer-science/introducao-a-python-e-raspagem-de-dados-da-web/raspagem-de-dados/ab38ab4e-bdbd-4984-8987-1abf32d85f26/conteudos/0ca72728-5611-4f76-b49a-4da8409988f7/alguns-problemas/f7bb456e-c528-40b0-a17a-8bb1bf8a2fe8?use_case=side_bar) será respeitado.
 
 - A função deve receber uma URL
 - A função deve fazer uma requisição HTTP `get` para esta URL utilizando a função `requests.get`
